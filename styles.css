@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1rem 6rem;
+  background-color: black;
+  color: white;
+  align-items: center;
+  font-size: 15px;
+  position: fixed;
+  width: 100%;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  column-gap: 2rem;
+}
+
+nav input {
+  padding: 1rem 1rem;
+  border-radius: 20px;
+  background-color: transparent;
+  color: white;
+  border: 1px rgb(99, 99, 99);
+  font-size: 20px;
+}
+
+nav input::placeholder {
+  color: white;
+  font-size: 15px;
+}
+#hero {
+  background-image: url("./assets/fashion\ 2.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#hero-overlay {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#hero-overlay p {
+  display: flex;
+  flex-direction: column;
+  font-family: "Times New Roman", Times, serif;
+  margin-left: 60px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+#hero-overlay h1 {
+  display: flex;
+  flex-direction: column;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-size: 50px;
+  margin-left: 60px;
+  color: white;
+}
+
+.primary-button {
+  border-radius: 16px;
+  background-color: blue;
+  color: white;
+  border: 70px rgb(99, 99, 99);
+  font-size: 15px;
+  gap: 2px;
+  padding: 1rem 1rem;
+  max-width: 150px;
+  margin-left: 60px;
+  width: fit-content;
+  border: none;
+}
+
+#features {
+  display: flex;
+  flex-direction: row;
+  margin: 5rem 5%;
+  column-gap: 3rem;
+  align-items: center;
+
+}
+
+.feat-right {
+  width: 40%;
+  border: 1px solid blue;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+
+#features img {
+  width: 100%;
+}
+
+.feat-left{
+display: flex;
+flex-direction: column;
+row-gap: 20px;
+width: 60%;
+}
+
+
+#features-card{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px
+}
+
+#features-card div {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  background-color: rgb(227, 226, 223);
+  justify-content: center;
+  align-items: center;
+  padding:2rem ;
+  text-align: center;
+
+}
+
+#Nature IMG{
+  background-image: url("./assets/pexels-daiangan-102129.jpg");
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
