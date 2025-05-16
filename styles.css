@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+body{
+  overflow-x: hidden;
+  padding-bottom: 500px;
+}
 nav {
   display: flex;
   flex-direction: row;
@@ -90,7 +94,6 @@ nav input::placeholder {
   margin: 5rem 5%;
   column-gap: 3rem;
   align-items: center;
-
 }
 
 .feat-right {
@@ -106,18 +109,17 @@ nav input::placeholder {
   width: 100%;
 }
 
-.feat-left{
-display: flex;
-flex-direction: column;
-row-gap: 20px;
-width: 60%;
+.feat-left {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  width: 60%;
 }
 
-
-#features-card{
+#features-card {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 50px
+  gap: 50px;
 }
 
 #features-card div {
@@ -127,15 +129,21 @@ width: 60%;
   background-color: rgb(227, 226, 223);
   justify-content: center;
   align-items: center;
-  padding:2rem ;
+  padding: 2rem;
   text-align: center;
-
 }
 
-#Nature IMG{
+#Nature {
   background-image: url("./assets/pexels-daiangan-102129.jpg");
-  height: 100vh;
+  position: relative;
+  height: 70vh;
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
+}
+
+#Nature-overlay h1 {
+ 
+
 }
